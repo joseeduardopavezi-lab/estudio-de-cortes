@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Estúdio de Cortes · Fio do Corte</title>
+  <meta name="description" content="O app que acha os melhores trechos dos podcasts, edita no visual do Fio do Corte e agenda os cortes no YouTube, no Instagram e no TikTok.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Estúdio de Cortes · Fio do Corte">
+  <meta property="og:description" content="Do episódio de duas horas ao corte de um minuto: o estúdio acha o trecho, edita e agenda nas três redes.">
+  <meta property="og:image" content="https://joseeduardopavezi-lab.github.io/estudio-de-cortes/img/og.jpg">
+  <meta property="og:locale" content="pt_BR">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preload" href="fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="nav" id="nav">
+    <div class="nav-in">
+      <a class="nav-brand" href="#topo" aria-label="Estúdio de Cortes, início">
+        <svg viewBox="0 0 512 512" aria-hidden="true"><rect x="56" y="56" width="152" height="48"/><rect x="56" y="56" width="48" height="264"/><rect x="304" y="408" width="152" height="48"/><rect x="408" y="192" width="48" height="264"/><polygon points="156,416 240,416 360,96 276,96"/></svg>
+        <span>Estúdio de Cortes</span>
+      </a>
+      <nav aria-label="Seções">
+        <a href="#como">Como funciona</a>
+        <a href="#formato">O formato</a>
+        <a href="#controle">No controle</a>
+        <a href="#telas">Telas</a>
+      </nav>
+      <a class="nav-cta" href="https://www.youtube.com/@fiodocorte-1" target="_blank" rel="noopener">Ver o canal</a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- Hero -->
+    <section class="hero" id="topo">
+      <div class="hero-mark" aria-hidden="true"><svg viewBox="0 0 512 512"><rect x="56" y="56" width="152" height="48"/><rect x="56" y="56" width="48" height="264"/><rect x="304" y="408" width="152" height="48"/><rect x="408" y="192" width="48" height="264"/><polygon class="cut" points="156,416 240,416 360,96 276,96"/></svg></div>
+      <h1>Estúdio de Cortes</h1>
+      <p class="hero-lead">Do episódio de duas horas ao corte de um minuto. O estúdio acha os melhores trechos dos podcasts, edita no visual do Fio do Corte e agenda no YouTube, no Instagram e no TikTok.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#como">Ver como funciona</a>
+        <a class="btn link" href="https://www.youtube.com/@fiodocorte-1" target="_blank" rel="noopener">Assistir aos cortes <span aria-hidden="true">›</span></a>
+      </div>
+      <figure class="window hero-window">
+        <div class="window-bar" aria-hidden="true"><i></i><i></i><i></i><span>Estúdio Fio do Corte</span></div>
+        <img src="img/painel.webp" width="2880" height="1800" alt="Painel do estúdio: os cinco horários de hoje numa fita, com o próximo post às 15:00, as views das três redes, a meta de monetização e o vídeo longo da semana.">
+      </figure>
+    </section>
+
+    <!-- Numbers -->
+    <section class="numbers" aria-label="O estúdio em números">
+      <dl>
+        <div><dt>horários por dia</dt><dd data-count="5">5</dd></div>
+        <div><dt>redes ao mesmo tempo</dt><dd data-count="3">3</dd></div>
+        <div><dt>cortes feitos</dt><dd data-count="159">159</dd></div>
+        <div><dt>vídeos no ar no YouTube</dt><dd data-count="62">62</dd></div>
+      </dl>
+      <p class="fine">Números do estúdio em 26 de outubro de 2026, treze dias depois de o canal começar.</p>
+    </section>
+
+    <!-- How it works: a real sequence -->
+    <section class="section" id="como">
+      <h2>Quatro passos, sem você precisar estar lá.</h2>
+      <p class="section-lead">Você liga o piloto uma vez. Daí em diante, o estúdio faz o trabalho lento de um canal de cortes, todos os dias.</p>
+      <ol class="steps">
+        <li><span class="tile" style="--tile:#30b158"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2"/><path d="M8.5 8.5a5 5 0 0 0 0 7m7-7a5 5 0 0 1 0 7M5.6 5.6a9 9 0 0 0 0 12.8m12.8-12.8a9 9 0 0 1 0 12.8"/></svg></span><h3>Fontes</h3><p>Você escolhe os canais. Só entram podcasts que permitem cortes ou que têm acordo com o criador.</p></li>
+        <li><span class="tile" style="--tile:#ff5b35"><svg viewBox="0 0 24 24"><path d="m12 3 2.2 6.8L21 12l-6.8 2.2L12 21l-2.2-6.8L3 12l6.8-2.2Z"/></svg></span><h3>Curadoria com IA</h3><p>A IA lê a conversa inteira e escolhe trechos com começo, meio e fim. Cada um ganha uma nota de 0 a 10.</p></li>
+        <li><span class="tile" style="--tile:#bf5af2"><svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="m8.5 7.5 12 12m-12-3 12-12M12 12l2 2"/></svg></span><h3>Edição</h3><p>O vídeo sai vertical, com close em quem fala, legenda palavra por palavra, capa e trilha livre de direitos.</p></li>
+        <li><span class="tile" style="--tile:#ff453a"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4m8-4v4"/></svg></span><h3>Agenda</h3><p>Os cortes ficam agendados nos horários do canal. O YouTube publica mesmo com o computador desligado.</p></li>
+      </ol>
+      <figure class="window reveal">
+        <div class="window-bar" aria-hidden="true"><i></i><i></i><i></i><span>Piloto automático</span></div>
+        <img src="img/piloto.webp" width="2880" height="1800" loading="lazy" alt="Tela do piloto automático: ligado, com as etapas Fontes, Legendas, Curadoria com IA, Edição, Estoque, Agenda e YouTube, e os horários de postagem 9h30, 11h, 15h, 18h e 20h30.">
+      </figure>
+    </section>
+
+    <!-- The cut format -->
+    <section class="section format" id="formato">
+      <div class="format-grid">
+        <div class="format-text">
+          <h2>O podcast na frente.</h2>
+          <p class="section-lead left">Cada corte mostra quem fala em close, com a legenda uma palavra por vez. Uma imagem de apoio só entra no instante em que a coisa é dita, e todas juntas nunca passam de um quinto do vídeo.</p>
+          <div class="compare" aria-label="Tempo do corte coberto por imagens">
+            <div class="compare-row">
+              <span>Antes</span>
+              <div class="bar" role="img" aria-label="74% do corte coberto por imagens"><i style="--w:74%"></i></div>
+              <b>74%</b>
+            </div>
+            <div class="compare-row now">
+              <span>Agora</span>
+              <div class="bar" role="img" aria-label="No máximo 20% do corte coberto por imagens"><i style="--w:15%"></i></div>
+              <b>até 20%</b>
+            </div>
+            <p class="fine">Medido num corte real de 53 segundos: eram 13 imagens, cobrindo 39 segundos. Com a regra nova, o mesmo corte tem 3, e cada uma aparece na palavra dita.</p>
+          </div>
+          <ul class="facts">
+            <li>Caixas rosa com o nome de quem é citado e o fato principal da história.</li>
+            <li>Trilha de suspense por baixo da fala, com o áudio medido e sem estourar.</li>
+            <li>Capa no estilo dos grandes podcasts, escolhida pela IA entre os quadros do corte.</li>
+          </ul>
+        </div>
+        <div class="phone-demo" aria-label="Demonstração do formato: quem fala aparece em close, a legenda vem uma palavra por vez e a imagem de café entra quando a palavra café é dita." role="img">
+          <div class="phone">
+            <div class="phone-screen">
+              <div class="speaker" aria-hidden="true">
+                <svg class="mic" viewBox="0 0 64 64"><rect x="24" y="6" width="16" height="30" rx="8"/><path d="M16 30a16 16 0 0 0 32 0M32 46v10M22 58h20"/></svg>
+                <div class="levels"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              </div>
+              <div class="cutaway" aria-hidden="true">
+                <svg viewBox="0 0 200 200"><defs><linearGradient id="cup" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#f4e9dc"/><stop offset="1" stop-color="#cdb9a3"/></linearGradient><radialGradient id="bg" cx=".5" cy=".4" r=".7"><stop offset="0" stop-color="#6b3f22"/><stop offset="1" stop-color="#1c0f08"/></radialGradient></defs><rect width="200" height="200" fill="url(#bg)"/><ellipse cx="100" cy="150" rx="62" ry="12" fill="#f0e2d2" opacity=".9"/><path d="M58 92h84l-8 50a12 12 0 0 1-12 10H78a12 12 0 0 1-12-10Z" fill="url(#cup)"/><path d="M140 100c18 0 18 26 0 28" fill="none" stroke="#e8d8c6" stroke-width="7"/><ellipse cx="100" cy="94" rx="40" ry="7" fill="#3b1f0f"/><path class="steam" d="M86 80c-6-10 6-14 0-26M104 78c-6-10 6-14 0-26M120 80c-6-10 6-14 0-26" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="3" stroke-linecap="round"/></svg>
+                <span>CAFÉ</span>
+              </div>
+              <div class="brandmark" aria-hidden="true">FIO DO CORTE</div>
+              <div class="pinkbox" aria-hidden="true">O Brasil é o <b>maior produtor</b> de café do mundo</div>
+              <div class="word" aria-hidden="true"><span>O</span><span>BRASIL</span><span>É</span><span>O</span><span>MAIOR</span><span>PRODUTOR</span><span>DE</span><span>CAFÉ</span><span>DO</span><span>MUNDO</span></div>
+            </div>
+          </div>
+          <div class="timeline" aria-hidden="true">
+            <div class="track"><i class="img-slot"></i><i class="head"></i></div>
+            <div class="legend"><span><i class="k talk"></i>quem fala</span><span><i class="k pic"></i>imagem, só na palavra dita</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agenda -->
+    <section class="section" id="agenda">
+      <h2>Uma agenda, três redes.</h2>
+      <p class="section-lead">YouTube, Instagram e TikTok seguem os mesmos horários. Toque num horário para ver o corte, trocar por outro, pular ou tirar da agenda.</p>
+      <figure class="window reveal">
+        <div class="window-bar" aria-hidden="true"><i></i><i></i><i></i><span>Agenda</span></div>
+        <img src="img/agenda.webp" width="2880" height="1800" loading="lazy" alt="Agenda da semana com os horários de cada dia; cada corte mostra a situação no YouTube, no Instagram e no TikTok.">
+      </figure>
+    </section>
+
+    <!-- In control -->
+    <section class="section" id="controle">
+      <h2>As decisões ficam com você.</h2>
+      <p class="section-lead">O estúdio faz o trabalho repetitivo. O que importa espera a sua palavra.</p>
+      <div class="control-grid">
+        <figure class="panel reveal">
+          <img src="img/atividade-ok.webp" width="2360" height="580" loading="lazy" alt="Cartão da produção de cortes: esperando o seu OK, com o botão OK, produzir cortes.">
+        </figure>
+        <ul class="cards">
+          <li><span class="tile" style="--tile:#64748b"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L20 5"/></svg></span><h3>Produção só com o seu OK</h3><p>Toda vez que o estúdio liga, ele espera você liberar antes de baixar trechos, chamar a IA ou renderizar.</p></li>
+          <li><span class="tile" style="--tile:#111"><svg viewBox="0 0 24 24"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.4 2.7 2.3 4.6 5 4.9"/></svg></span><h3>Cada post do TikTok aprovado</h3><p>Quem pode ver, comentários e divulgação: você escolhe em cada post, como pedem as regras do TikTok.</p></li>
+          <li><span class="tile" style="--tile:#ff453a"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4m8-4v4"/></svg></span><h3>Tirar da agenda não apaga nada</h3><p>O vídeo fica privado no canal, o corte volta para o estoque e o piloto põe outro no horário.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Screens: easy to learn -->
+    <section class="section" id="telas">
+      <h2>Feito para aprender em um minuto.</h2>
+      <p class="section-lead">Cada aba diz para que serve. Na primeira vez, um tour curto mostra as telas principais. E o Ctrl+K leva a qualquer lugar.</p>
+      <div class="gallery" id="gallery" tabindex="0" aria-label="Telas do estúdio">
+        <figure class="slide"><div class="window"><div class="window-bar" aria-hidden="true"><i></i><i></i><i></i></div><img src="img/boas-vindas.webp" width="2880" height="1800" loading="lazy" alt="Tela de boas-vindas com os quatro passos: Fontes, Curadoria, Edição e Agenda."></div><figcaption>Boas-vindas com o caminho de um corte.</figcaption></figure>
+        <figure class="slide"><div class="window"><div class="window-bar" aria-hidden="true"><i></i><i></i><i></i></div><img src="img/tour.webp" width="2880" height="1800" loading="lazy" alt="Tour do estúdio destacando a aba Fontes, com a explicação ao lado."></div><figcaption>O tour aponta cada parte e explica em uma frase.</figcaption></figure>
+        <figure class="slide"><div class="window"><div class="window-bar" aria-hidden="true"><i></i><i></i><i></i></div><img src="img/busca.webp" width="2880" height="1800" loading="lazy" alt="Busca rápida aberta com a palavra tik, mostrando Analytics e Canais."></div><figcaption>Busca rápida: digite o que procura.</figcaption></figure>
+        <figure class="slide"><div class="window"><div class="window-bar" aria-hidden="true"><i></i><i></i><i></i></div><img src="img/biblioteca.webp" width="2880" height="1800" loading="lazy" alt="Biblioteca com os episódios lidos pelo estúdio, as views de cada original e quantos cortes saíram de cada um."></div><figcaption>Biblioteca: cada episódio e o que rendeu.</figcaption></figure>
+      </div>
+      <div class="gallery-nav"><button type="button" data-dir="-1" aria-label="Tela anterior"><svg viewBox="0 0 24 24"><path d="m15 6-6 6 6 6"/></svg></button><button type="button" data-dir="1" aria-label="Próxima tela"><svg viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></button></div>
+    </section>
+
+    <!-- Phone -->
+    <section class="section phones-section">
+      <div class="phones-grid">
+        <div>
+          <h2>Cabe no celular.</h2>
+          <p class="section-lead left">A janela do estúdio se ajusta a qualquer tela. E o app do celular aprova os posts do TikTok e dá o OK da produção de onde você estiver.</p>
+        </div>
+        <div class="phones">
+          <div class="phone small reveal"><img src="img/celular-painel.webp" width="1170" height="2532" loading="lazy" alt="Painel no celular com os cortes de hoje."></div>
+          <div class="phone small reveal"><img src="img/celular-agenda.webp" width="1170" height="2532" loading="lazy" alt="Agenda no celular com a fila do TikTok para aprovar."></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Responsible -->
+    <section class="section care">
+      <h2>Do jeito certo.</h2>
+      <ul class="cards three">
+        <li><h3>Só fontes autorizadas</h3><p>O piloto só usa canais que permitem cortes ou que têm acordo com o criador. Temas como eleição nunca saem sozinhos.</p></li>
+        <li><h3>Trilhas e imagens livres</h3><p>Músicas, efeitos e vídeos de apoio com licença de uso comercial. Fotos em domínio público ou com crédito do autor.</p></li>
+        <li><h3>Roda no seu computador</h3><p>Os acessos às redes ficam guardados com a proteção do Windows. A postagem usa só as APIs oficiais.</p></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-in">
+      <div class="footer-brand"><svg viewBox="0 0 512 512" aria-hidden="true"><rect x="56" y="56" width="152" height="48"/><rect x="56" y="56" width="48" height="264"/><rect x="304" y="408" width="152" height="48"/><rect x="408" y="192" width="48" height="264"/><polygon points="156,416 240,416 360,96 276,96"/></svg><span><b>FIO DO CORTE</b>O trecho passa. A ideia fica.</span></div>
+      <nav aria-label="Redes do Fio do Corte">
+        <a href="https://www.youtube.com/@fiodocorte-1" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://www.instagram.com/fiodocorte1/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.tiktok.com/@_fiodocorte" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://joseeduardopavezi-lab.github.io/privacidade.html">Privacidade</a>
+        <a href="https://joseeduardopavezi-lab.github.io/termos.html">Termos</a>
+      </nav>
+      <p class="fine">Telas reais do estúdio em 26/10/2026. As capas e os títulos dos cortes estão desfocados.</p>
+    </div>
+  </footer>
+  <script src="site.js" defer></script>
+</body>
+</html>
